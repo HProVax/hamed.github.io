@@ -2970,7 +2970,13 @@ paper-link.anchor {
 .next-arrow:focus {
   background: transparent/*rgba(149, 165, 110)*/;
 }
-
+  .nonradiosection .boxicon-right img {
+    float: right;
+    align-content: left;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+}
 }
 @media (min-width: 990px) and (max-width: 1314px) {
 
@@ -3004,6 +3010,20 @@ paper-link.anchor {
 
 }
 @media(min-width:170px) and (max-width: 768px){
+    .home-section-tabs {
+        display: block;
+        position: absolute;
+    }
+      .nonradiosection {
+        font-size: .4rem;
+    }
+  .nonradiosection .boxicon-right img {
+    float: right;
+    align-content: left;
+    width: 12rem;
+    height: 12rem;
+    padding: 2rem;
+}
 
 .about-details {
     display: flex;
@@ -3163,7 +3183,7 @@ transform: scale(.5);
     font-size: .3rem;
 }
 .my_pic_background {
-  margin-top:2.5rem ;
+  margin-top:2rem ;
   padding: 0rem;
   width: 10rem;
   height: 12rem;
@@ -3534,7 +3554,7 @@ strong{
     margin-left: 1%;
   }
   .about-details {
-        top: -10%;
+        top: -5%;
         width: 100% !important;
         /* background-color: yellow; */
     }
